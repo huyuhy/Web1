@@ -81,20 +81,22 @@ ul,li,ol{
 .subnav{
 	margin-top: 20px;
 }
-.subnav li{
+.subnav a{
 	width: 89px;
 	height: 33px;
 	text-align: center;
 	line-height: 33px;
+	border-radius: 5px;
 	margin-right: 40px;
 	display: inline-block;
 }
-.subnav li:hover{
-	background-color: #fd0304;
-	border-radius: 5px;
-}
-.subnav li:hover a{
+.subnav a:hover{
 	color: #fff;
+	background-color: #fd0304;
+}
+.subnav a:last-child{
+	color: #fff;
+	background-color: #fd0304;
 }
 /* 主体内容 */
 .content-wrapper{
@@ -112,17 +114,22 @@ ul,li,ol{
 	height: 565px;
 	float: left;
 }
+.menu p{
+	line-height: 66px;
+	font-size: 14px;
+}
 .menu1{
 	width: 215px;
 	text-indent: 76px;
 	line-height: 44px;
 	display: inline-block;
-	margin: 66px 0 10px 0;
+	margin-bottom: 10px;
 	background: #fff url(sort.png) no-repeat 32px;
 }
 .menu2{
 	width: 139px;
 	height: 510px;
+	font-size: 14px;
 	padding-left: 76px;
 	background-color: #fff;
 }
@@ -173,7 +180,7 @@ ul,li,ol{
 }
 .list{
 	width: 84px;
-	margin-left: 180px;
+	margin-left: 184px;
 	display: inline-block;
 }
 .footer1 p{
@@ -200,4 +207,4 @@ ul,li,ol{
 .footer2 a,.footer2 span{
 	color: #fff;
 	font-size: 14px;
-}
+} 
