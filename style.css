@@ -1,11 +1,15 @@
+*{
+	padding: 0;
+	margin: 0;
+}
 .h1{
 	color: #333;
 	font-size: 30px;
 	font-weight: 700;
 	font-family: Microsoft YaHei;
-    padding: 1px 40px;
+    padding: 30px 40px;
     margin:0 auto;
-    margin-bottom: 20px;
+    margin: 5px 5px 20px 5px;
     background-color: #f11;
     background-image: url("gif1.gif");
     background-repeat: no-repeat;
@@ -55,11 +59,3 @@
 	width: 900px;
 	margin: 30px;
 }
-
-
-
-
-
-
-
-
